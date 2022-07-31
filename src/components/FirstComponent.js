@@ -37,7 +37,7 @@ export const FirstComponent = () => {
       <ul>
         {
           courses.map((course) => {
-            return (<li key={course.toString()} style={{ color: 'blue' }}>
+            return (<li key={course.toString()} style={{ color: "blue" }}>
               {course}
             </li>)
           })
@@ -46,7 +46,7 @@ export const FirstComponent = () => {
       <ul>
         {
           courses.map((course) =>
-            <li key={course.toString()} style={{ color: 'blue' }}>
+            <li key={course.toString()} style={{ color: "blue" }}>
               {course}
             </li>
           )
